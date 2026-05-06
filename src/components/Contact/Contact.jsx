@@ -86,7 +86,7 @@ export default function Contact() {
         </div>
 
         <div style={styles.cta}>
-          <a href="/Basim_Afzal_CV.pdf" download="Basim_Afzal_CV.pdf" style={{ textDecoration: "none" }}>
+          <a href="Basim_Afzal_CV.pdf" download="Basim_Afzal_CV.pdf" style={{ textDecoration: "none" }}>
             <button style={styles.btnLarge} className="btn-primary">
               ↓ Download Full CV (PDF)
             </button>

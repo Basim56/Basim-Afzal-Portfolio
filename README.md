@@ -84,13 +84,13 @@ Copy every file from this zip into the folder, preserving the directory structur
 
 ```bash
 # macOS / Linux
-cp /path/to/your/Basim_Afzal_CV.pdf public/Basim_Afzal_CV.pdf
+cp /path/to/yourBasim_Afzal_CV.pdf publicBasim_Afzal_CV.pdf
 
 # Windows
 copy C:\path\to\Basim_Afzal_CV.pdf public\Basim_Afzal_CV.pdf
 ```
 
-> The CV download buttons in Navbar and Contact link to `/Basim_Afzal_CV.pdf`.
+> The CV download buttons in Navbar and Contact link to `Basim_Afzal_CV.pdf`.
 > Vite serves everything inside `public/` at the root URL automatically.
 
 ### 3. Install dependencies

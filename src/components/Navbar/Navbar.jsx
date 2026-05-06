@@ -137,7 +137,7 @@ export default function Navbar({ activeSection, onScrollTo }) {
                 {id.charAt(0).toUpperCase() + id.slice(1)}
               </button>
             ))}
-            <a href="/Basim_Afzal_CV.pdf" download="Basim_Afzal_CV.pdf" style={{ textDecoration: "none" }}>
+            <a href="Basim_Afzal_CV.pdf" download="Basim_Afzal_CV.pdf" style={{ textDecoration: "none" }}>
               <button style={styles.cvBtn} className="btn-primary">Download CV</button>
             </a>
           </div>
@@ -159,7 +159,7 @@ export default function Navbar({ activeSection, onScrollTo }) {
             {id.charAt(0).toUpperCase() + id.slice(1)}
           </button>
         ))}
-        <a href="/Basim_Afzal_CV.pdf" download="Basim_Afzal_CV.pdf" style={{ textDecoration: "none", width: "100%" }}>
+        <a href="Basim_Afzal_CV.pdf" download="Basim_Afzal_CV.pdf" style={{ textDecoration: "none", width: "100%" }}>
           <button style={styles.drawerCvBtn}>↓ Download CV</button>
         </a>
       </div>

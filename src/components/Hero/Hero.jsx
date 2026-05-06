@@ -49,7 +49,7 @@ export default function Hero({ onScrollTo }) {
           &amp; Flutter solutions.
         </p>
         <div className="anim anim-delay-4 hero-btns" style={styles.btns}>
-          <a href="/Basim_Afzal_CV.pdf" download="Basim_Afzal_CV.pdf" style={{ textDecoration: "none" }}>
+          <a href="Basim_Afzal_CV.pdf" download="Basim_Afzal_CV.pdf" style={{ textDecoration: "none" }}>
             <button style={styles.btnLarge} className="btn-primary">↓ Download CV</button>
           </a>
           <button style={styles.btnOutlineLarge} className="btn-outline" onClick={() => onScrollTo("contact")}>
